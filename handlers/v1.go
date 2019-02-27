@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	configurations "configurations"
-	file "utilities"
+	configurations "github.com/splitter/configurations"
+	file "github.com/splitter/utilities"
 )
 
 func PingV1(w http.ResponseWriter, r *http.Request) {

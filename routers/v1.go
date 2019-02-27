@@ -3,7 +3,8 @@ package routers_v1
 import (
 	"fmt"
 	"net/http"
-	handlers "handlers"
+
+	handlers "github.com/splitter/handlers"
 )
 
 func PingV1(w http.ResponseWriter, r *http.Request) {

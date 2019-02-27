@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"runtime"
 
-	configurations "configurations"
-	v1 "routers"
+	configurations "github.com/splitter/configurations"
+	v1 "github.com/splitter/routers"
 )
 
 func main() {
